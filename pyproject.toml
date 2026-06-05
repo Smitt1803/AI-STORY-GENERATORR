@@ -1,0 +1,33 @@
+[project]
+name = "storygeneration"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nevivaghani",email = "nevivaghani793@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "spacy (>=3.8.5,<4.0.0)",
+    "fastapi (>=0.115.12,<0.116.0)",
+    "uvicorn (>=0.34.2,<0.35.0)",
+    "pydantic[email] (>=2.13.4,<3.0.0)",
+    "google-generativeai (>=0.8.5,<0.9.0)",
+    "transformers (>=4.51.3,<5.0.0)",
+    "torch (>=2.7.0,<3.0.0)",
+    "gtts (>=2.5.4,<3.0.0)",
+    "streamlit (>=1.45.0,<2.0.0)",
+    "langchain (>=0.3.25,<0.4.0)",
+    "langchain-community (>=0.3.23,<0.4.0)",
+    "langchain-groq (>=0.3.2,<0.4.0)",
+    "fpdf (>=1.7.2,<2.0.0)",
+    "pymongo (>=4.17.0,<5.0.0)",
+    "python-jose[cryptography] (>=3.5.0,<4.0.0)",
+    "passlib (>=1.7.4,<2.0.0)",
+    "bcrypt (==4.0.1)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

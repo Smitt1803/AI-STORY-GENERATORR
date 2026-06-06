@@ -1,3 +1,7 @@
+## Team Members
+- Smit Vaghani (@Smitt1803)
+- Vidhi Gadge (@vidhigadge)
+
 # 📚 AI Story Generator
 
 An advanced AI-powered story generation platform that allows users to create custom stories based on prompts, genres, tone, and style. This project includes a FastAPI backend for story generation and authentication, and a modern Streamlit-based frontend for user interaction.
